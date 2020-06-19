@@ -94,6 +94,7 @@ namespace Level1Space
                     TempS++;
                 }
                 S = S.Remove(S.Length - 1, 1);//удаляем "h"б который добавили
+                S = S.Remove(S.Length - 1, 1);
                 //Console.WriteLine(S);
 
             }
@@ -168,6 +169,7 @@ namespace Level1Space
 
                 //Console.WriteLine(S);
                 S = S.Remove(S.Length - 1, 1);//удаляем "h"б который добавили
+               
                 //Console.WriteLine(S);
             }
 
@@ -177,12 +179,14 @@ namespace Level1Space
         //{
         //    bool encode = false;
         //    //string s = "отдай мою кроличью лапку";
-        //    string s= "омоюу толл1 дюиа акчп йрьк";
+        //    string s = "омоюу толл1 дюиа акчп йрьк";
         //    //string s = "null";
         //    string S = TheRabbitsFoot(s, encode);
         //    Console.WriteLine(s);
+        //    Console.WriteLine(S[S.Length-1]);
+        //    Console.WriteLine(S[0]);
         //    Console.WriteLine(S);
-            
+
         //}
     }
 }
